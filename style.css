@@ -1,0 +1,162 @@
+@charset "UTF-8";
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: #feead4;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #760016;
+    text-align: center; 
+}
+
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #B41e3a;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+p {
+    color:#a34053;
+    margin-left: 25px;
+}
+
+ol {
+     color:#a34053;
+}
+
+ul {
+     color:#a34053;
+}
+
+footer {
+    background-color: #cc5168;
+    padding: 15px;
+    font-family:  'Ubuntu', sans-serif;
+    font-style: italic;
+}
+
+footer p {
+    color: #760016;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-left, .column-right {
+    width: 50%; 
+}
+
+.column-left {
+    margin-right: 2%;
+}
+
+.column-right {
+    margin-left: 2%;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.typography-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intext-image {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-right {
+    width: 40%; 
+}
+
+.image-right img {
+    width: 50%; 
+    height: auto;
+}
+
+.image-left {
+    width: 40%; 
+    margin-right: 20px;
+}
+
+.image-left img {
+    width: 50%; 
+    height: auto;
+}
+
+.text-content {
+    width: 55%; 
+}
+
+.button-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #760016; 
+    color: #cc5168; 
+        border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.button-link:hover {
+    background-color: #cc5168; 
+    color: #760016; 
+}
+
+a {
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #ff6682;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #760016;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:  #cc5168;
+  color: #760016;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #5168cc;
+  color: #feead4;
+}
